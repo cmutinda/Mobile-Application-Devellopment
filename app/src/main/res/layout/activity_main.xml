@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background_r"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    >
+
+
+    <ImageView
+        android:id="@+id/evokeLogo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/ic_launcher"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp" />
+
+    <EditText
+        android:id="@+id/emailField"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:width="500dp"
+        android:background="@drawable/input_background"
+        android:ems="8"
+        android:hint="@string/label_email"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <EditText
+        android:id="@+id/passwordField"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/input_background"
+        android:ems="8"
+        android:hint="@string/label_password"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:layout_below="@+id/emailField"
+        android:layout_alignStart="@+id/emailField" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/btn_label1"
+        android:background="@drawable/btn_background"
+        android:layout_below="@+id/passwordField"
+        android:layout_alignStart="@+id/emailField" />
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/loginBtn"
+        android:layout_alignStart="@+id/emailField"
+        android:layout_marginTop="15dp"
+        >
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/google_button"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:background="@drawable/gbtn_background"
+        android:layout_weight="1"
+        android:layout_alignStart="@+id/loginBtn">
+    </com.google.android.gms.common.SignInButton>
+
+        <Button
+            android:id="@+id/signUp"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:text="@string/btn_label3"
+            android:layout_weight="1"
+            android:background="@drawable/btn_background"
+            android:onClick="startRegistration"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
+

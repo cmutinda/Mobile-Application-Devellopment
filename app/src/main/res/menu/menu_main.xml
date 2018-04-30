@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item  android:id="@+id/item1"
+        android:title="@string/item1"
+        android:icon="@drawable/ic_account_box_black_24dp"/>
+    <item  android:id="@+id/item2"
+        android:title="@string/item2"
+        android:icon="@drawable/ic_stars_black_24dp"/>
+    <item  android:id="@+id/item3"
+        android:title="@string/item3"
+        android:icon="@drawable/ic_movie_black_24dp"/>
+    <item android:id="@+id/item4"
+        android:title="Settings"
+        android:icon="@drawable/ic_settings_black_24dp"/>
+
+</menu>

@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Evoke Central</string>
+    <string name="app_name2">Evoke Central - Today</string>
+    <string name="app_name3">Evoke Central - Popular</string>
+    <string name="app_name4">Evoke Central - In Cinemas</string>
+    <string name="label_email">Email</string>
+    <string name="label_password">Password</string>
+    <string name="btn_label1">Sign In</string>
+    <string name="btn_label2">Sign Out</string>
+    <string name="btn_label3">Sign Up</string>
+    <string name="head">Heading</string>
+    <string name="desc">Description</string>
+    <string name="item1">Account</string>
+    <string name="item2">Popular</string>
+    <string name="item3">In Cinemas</string>
+    <string name="item4">Account</string>
+    <string name="item5">Today</string>
+    <string name="item7">Settings</string>
+    <string name="item6">In Cinemas</string>
+    <string name="action_view_next">Add to bucket-list</string>
+    <string name="action_add_favourite">Add to favourites</string>
+    <string name="backdrop_title">Today\'\ s shows</string>
+    <string name="backdrop_title3">In Cinemas Now</string>
+    <string name="backdrop_subtitle">TV shows to watch</string>
+    <string name="backdrop_subtitle3">Movies to watch</string>
+    <string name="backdrop_title2">Most Popular Shows</string>
+    <string name="backdrop_subtitle2">TV shows to watch</string>
+    <string name="description">Description:</string>
+    <string name="rating">Rating:</string>
+    <string name="showname">Show name:</string>
+    <string name="showname2">Movie name:</string>
+    <string name="enteremail">Enter Email Address</string>
+    <string name="enterpass">Enter Password</string>
+    <string name="confirmpass">Confirm Password</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="register">Next</string>
+    <string name="home">Home</string>
+    <string name="firstn">First Name</string>
+    <string name="lastn">Surname</string>
+    <string name="displayn">Display Name</string>
+    <string name="update">Complete Registration</string>
+    <string name="accdets">Account Details</string>
+    <string name="reg">Registration</string>
+
+
+    <string name="sett_reminder_header">Set Reminder</string>
+    <string name="sett_reminder_label">Remind Me</string>
+    <string name="sett_reminder_desc">We will keep you up to date with the TV guide</string>
+    <string name="sett_reminder_time_label">Set Reminder Time</string>
+    <string name="sett_reminder_time_content">8 : 00 AM</string>
+
+
+</resources>

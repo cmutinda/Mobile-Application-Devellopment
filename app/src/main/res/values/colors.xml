@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#001e44</color>
+    <color name="colorPrimaryDark">#117CC9</color>
+    <color name="colorAccent">#FFCB2B</color>
+    <color name="viewBg">#f1f5f8</color>
+    <color name="show_title">#4c4c4c</color>
+
+    <color name="red">#f44336</color>
+    <color name="blue">#2196f3</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+
+    <color name="textcolorHeader">#069ECF</color>
+    <color name="textColorPrimary">#000000</color>
+    <color name="textColorSecondary">#A5A5A5</color>
+
+    <!--switch color-->
+
+    <color name="thumb_active">#069ECF</color>
+    <color name="track_active">#66069ECF</color>
+
+    <color name="thumb_inactive">#A5A5A5</color>
+    <color name="track_inactive">#66A5A5A5</color>
+
+
+</resources>
